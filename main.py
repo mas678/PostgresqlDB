@@ -48,8 +48,12 @@ def fillDB(db_con: DBConnector):
 def main():
     db_con = DBConnector()
     db_con.create_db()
-    print(task_A1())
+    print(task_A1(db_con))
+    print(task_A2(db_con))
+    print(task_B(db_con))
+    print(task_C(db_con))
+    print(task_D(db_con))
 
 
-if __name__ == "__main__":
+if __name__ == "In f__main__":
     main()
